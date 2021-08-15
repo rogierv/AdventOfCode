@@ -1,10 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="Utils.fs" />
     <Content Include="Day1a.txt">
@@ -24,8 +22,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Compile Include="Day5.fs" />
+    <Content Include="Day6a.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="Day6.fs" />
+    <Compile Include="sandbox.fsx" />
     <Compile Include="Program.fs" />
     <None Include="sandbox.fsx" />
   </ItemGroup>
-
 </Project>
